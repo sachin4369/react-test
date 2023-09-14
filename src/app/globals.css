@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slider .slick-dots li button:before {
+  width: 16px !important;
+  height: 2px !important;
+  background-color: black;
+  display: block !important;
+  content: '' !important;
+  top: 5px;
+}
+
+.slick-slider .slick-dots li button {
+  width: 16px !important;
+  height: 2px !important;
+}
